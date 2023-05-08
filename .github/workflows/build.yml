@@ -13,5 +13,5 @@ jobs:
           fetch-depth: 0
       - uses: sonarsource/sonarqube-scan-action@master
         env:
-          SONAR_TOKEN: sqp_c7fa7d0527f79b8ae33e9b37adcaea97808e1c47
+          SONAR_TOKEN: "sqp_c7fa7d0527f79b8ae33e9b37adcaea97808e1c47"
           SONAR_HOST_URL: https://sonar-marche.securityfirst.com.br
